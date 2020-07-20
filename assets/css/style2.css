@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#container-carousel {
+	min-height: 500px;
+	background-color: red;
+}
+
+.carousel-inner {
+	height: 100vh;
+	background-color: blue;
+}
+
+.carousel-item {
+	height: 100vh;
+}
+
+.carousel-item {
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+
+.carousel-caption {
+	z-index: 10;
+}
+
+.carousel-caption h2 {
+	background-color: rgba(53,53,53,0.7);
+}
+#item1 {
+	background-image: url(../images/banner/city.jpg);
+}
+
+#item2 {
+	background-image: url(../images/banner/ignacio.jpg);
+}
+
+#item3 {
+	background-image: url(../images/banner/hearthand.jpg);
+}

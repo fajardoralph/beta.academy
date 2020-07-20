@@ -1,0 +1,206 @@
+/* GLOBAL VALUES FOR GUILDS */
+
+tr,td,th {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.vh-center {
+padding: 0;
+margin: 0;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.guild-description {
+	background-color: #1c1b26;
+}
+
+.member-description {
+	background-color: #1c1b26;
+}
+
+.guild-intro {
+	margin-top: 30px;
+}
+
+.member-intro {
+	margin-top: 30px;
+}
+
+.logo-wrapper {
+border: 2px solid #1c1b26;
+}
+
+/* OFFICER PICTURE STYLES */
+
+.officer-container {
+	margin-top: 50px;
+}
+
+.officer-list {
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.officer-container p {
+	margin-top: 5px;
+	text-align: center;
+	padding: 0;
+}
+
+.label-content p {
+	font-size: 1em;
+}
+
+/* PDGP */
+
+.guild-intro {
+	/* border: 4px solid #699c1f; */
+}
+
+table {
+	border-collapse: separate
+}
+th {
+	color: #84c427;
+}
+td {
+	color: #FFF;
+}
+
+
+.pdgp-breadcrumb {
+	background-color: #1c1b26;
+	min-height: 10px;
+	width: 100%;
+	border-radius: 0 0 8px 8px;
+}
+
+.pdgp-breadcrumb a.active {
+	color: #fff;
+}
+
+.pdgp-breadcrumb a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #84c427 ;
+	font-weight: bold;
+}
+
+#label-pdgp {
+	width: 450px;
+	margin-top: 50px;
+	padding: 5px 5px 5px 10px;
+	border-left: 10px solid #84c427;
+	font-size: 1.2em;
+	font-family: 'Cinzel', serif;
+	letter-spacing: 1px;
+	color: #84c427;
+	background-color: #1c1b26;
+}
+
+#sub-label-pdgp {
+	padding: 5px 5px 5px 10px;
+	letter-spacing: 1px;
+	border-bottom: 3px solid #84c427;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	color: #fff;
+	background-color: #1c1b26;
+}
+
+.pdgp-list li{
+	border-radius: 0px !important;
+}
+
+#label-pdgp h3 {
+	margin: 0;
+	color: #84c427;
+}
+
+.pdgp-img {
+	width: 250px;
+	border: 5px solid #84c427;
+	border-top-left-radius: 20%;
+	border-bottom-right-radius: 20%;
+}
+
+.pdgp-name {
+	padding: 0;
+	 margin: 0;
+	font-family: 'Cinzel', serif;
+	color: #4b6f16;
+	font-size: 1.2em;
+}
+
+
+/* MEMBER DESC */
+#profile-pic {
+	object-fit: cover;
+}
+
+
+
+
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+	
+	/* GUID MAIN PAGE */
+
+	.page-content {
+		padding-top: 10px;
+		min-height: 81%;
+		min-height: 81vh;
+	} 
+
+	#guild-container {
+		padding: 0px;
+	}
+
+	.pdgp-breadcrumb {
+		margin-bottom: 0;
+	}
+
+	.logo-wrapper {
+		border: 0;
+	}
+
+	.logo-wrapper img {
+	 	display: none;
+	}
+
+	.officer-list img {
+		width: 150px;
+	}
+
+	.officer-list p {
+		font-size: 0.8em;
+	}
+	
+	.guild-description {
+		padding-top: 10px;
+	}
+
+	.guild-description tr,td,th {
+		font-size: 0.85em;
+	}
+
+	.member-description {
+		font-size: 0.9em;
+	}
+
+	.label {
+		font-size: 1em;
+	}
+	
+	.list-group-item {
+		font-size: 0.85em;
+	}
+	
+	/* GUILD MEMBER */
+
